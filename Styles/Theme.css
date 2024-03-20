@@ -1,0 +1,64 @@
+*{
+    font-family:Verdana;
+
+}
+
+#hover{
+    color: purple;
+}
+body{
+    background-color: #3A383B;
+}
+
+header{
+    background-image: url(../Images/Background1.jpg);
+    height: 250px;
+}
+footer{
+    height: 4%;
+    text-align: center;
+    padding:7px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #767878;
+}
+a{
+    text-decoration: none;
+}
+
+nav ul li{
+    padding:25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline;
+}
+
+nav{
+    background-color: #767878;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 15px;
+}
+
+img{
+    border: solid white 2px;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 6%;
+    font-size: 250%;
+}
+h2{
+    text-align: center;
+}
