@@ -3,9 +3,6 @@
 
 }
 
-#hover{
-    color: purple;
-}
 body{
     background-color: #3A383B;
 }
@@ -13,6 +10,7 @@ body{
 header{
     background-image: url(../Images/Background1.jpg);
     height: 250px;
+    border: solid white 1px;
 }
 footer{
     height: 4%;
@@ -22,43 +20,97 @@ footer{
     margin-right: 5px;
     background-color: #767878;
 }
-a{
-    text-decoration: none;
-}
-
 nav ul li{
-    padding:25px;
+    padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
     display: inline;
+    border: solid white 1px;
+    border-radius: 12px;
+    a{
+        text-decoration: none;
+    }
 }
 
-nav{
+#navigation {
     background-color: #767878;
-    text-align: center;
-    text-decoration: none;
     display: inline;
-}
+    text-align: center;
 
-.container {
-    display: flex;
 }
+.col_detail{
+    column-count: 2;
+    column-rule: 1px solid white;
+    column-gap: 40px;
+    padding: 2px;
 
-.column {
-    flex: 1;
-    padding: 15px;
 }
+.col_detail2{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 40px;
+    padding: 2px;
 
+}
 img{
-    border: solid white 2px;
+    border: solid white 1px;
     border-radius: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 h1{
     text-align: center;
     padding: 6%;
     font-size: 250%;
+    color: yellow;
 }
 h2{
     text-align: center;
+    color: yellow;
+
 }
+h3{
+    color: yellow;
+}
+
+aside{
+    width: 30%;
+    border: white 2px;
+    float: right;
+    background-color: black ;
+    bottom: 0;
+}
+.section{
+    width:70%;
+    float: left;
+}
+
+footer{
+    height: 4%;
+}
+main{
+    padding-bottom: 10%;
+}
+input{
+    color: black;
+}
+button p{
+    color:black;
+    border-radius: 1;
+}
+#table{
+    margin-left: 25%;
+     th{
+        border-bottom:solid white 1px;
+        border-right:solid white 1px ;
+    }
+    tr th{
+        border-bottom:solid white 1px;
+        border-right:solid white 1px ;
+    }
+}
+.needed::after {
+    color: red;
+    content: " *";
+  }
